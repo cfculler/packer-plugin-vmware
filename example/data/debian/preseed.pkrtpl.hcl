@@ -104,4 +104,4 @@ d-i preseed/late_command string \
 echo "vagrant ALL=(ALL:ALL) NOPASSWD:ALL" > /target/etc/sudoers.d/vagrant && chmod 0440 /target/etc/sudoers.d/vagrant
 
 # remove cdrom from apt sources
-d-i preseed/late_command string sed -i '/^deb cdrom:/s/^/#/' /target/etc/apt/sources.list
+# d-i preseed/late_command string sed -i '/^deb cdrom:/s/^/#/' /target/etc/apt/sources.list

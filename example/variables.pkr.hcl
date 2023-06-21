@@ -105,6 +105,6 @@ variable "vm_guest_os_timezone" {
 
 variable "vm_headless" {
   type    = bool
-  default = true
+  default = false
 }
 
